@@ -2,13 +2,20 @@
 /* CSS items should be listed by Element, Class, and then ID, personal style is alphabetical order, should consider order of importance. 
 Attributes should be listed in alphabetical order.*/
 
-/*This CSS element specifies a margin & text-decoration properties to the Anchor tag.*/
 a {
   margin: 10px 20px;
   text-decoration: none;
 }
+/*This CSS element specifies a margin & text-decoration properties to the Anchor tag.
+The margin CSS shorthand property sets the margin area on all four sides of an element.
+https://developer.mozilla.org/en-US/docs/Web/CSS/margin
 
-/*This CSS element species properties to the body tag.*/
+The text-decoration shorthand CSS property sets the appearance of decorative lines on text. 
+It is a shorthand for text-decoration-line, text-decoration-color, text-decoration-style, 
+and the newer text-decoration-thickness property.
+https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration
+*/
+
 body {
   color: #40514e;
   background-color: #eaf6f6;
@@ -16,8 +23,26 @@ body {
   font-size: 200%;
   text-align: center;
 }
+/*This CSS element species properties to the body tag.
+The color CSS property sets the foreground color value of an element's text and text decorations, 
+and sets the <currentcolor> value. currentcolor may be used as an indirect value on other properties 
+and is the default for other color properties, such as border-color.
+https://developer.mozilla.org/en-US/docs/Web/CSS/color
 
-/*These next H1-H6 elments specify headers and their properties*/
+The background-color CSS property sets the background color of an element.
+https://developer.mozilla.org/en-US/docs/Web/CSS/background-color
+
+The font-family CSS property specifies a prioritized list of one or more font family names and/or generic family names for the selected element.
+https://developer.mozilla.org/en-US/docs/Web/CSS/font-family
+
+The font-size CSS property sets the size of the font. Changing the font size also updates the sizes of the font size-relative <length> units, such as em, ex, and so forth.
+https://developer.mozilla.org/en-US/docs/Web/CSS/font-size
+
+The text-align CSS property sets the horizontal alignment of the content inside a block element or table-cell box. This means it works like vertical-align 
+but in the horizontal direction.
+https://developer.mozilla.org/en-US/docs/Web/CSS/text-align
+*/
+
 h1 {
   color: #66bfbf;
   font-family: "Sacramento", serif;
@@ -38,17 +63,36 @@ h3 {
 h3 {
   color: #11999e;
 }
+/*The above H1-H6 elments specify headers and their properties
+The width CSS property sets an element's width. By default, it sets the width of the content area, but if box-sizing is set to border-box, it sets the width of the border area.
+https://developer.mozilla.org/en-US/docs/Web/CSS/width
+
+The padding CSS shorthand property sets the padding area on all four sides of an element at once.
+https://developer.mozilla.org/en-US/docs/Web/CSS/padding
+
+*/
+
 p {
   line-height: 2;
 }
 
-/*Specifies rules for the HR tag*/
+/*
+Targeting paraghaphs
+The line-height CSS property sets the height of a line box. It's commonly used to set the distance between lines of text. On block-level elements, it specifies the minimum height
+ of line boxes within the element. On non-replaced inline elements, it specifies the height that is used to calculate line box height.
+ https://developer.mozilla.org/en-US/docs/Web/CSS/line-height
+*/
+
 hr {
   border: dotted #eaf6f6 6px;
   border-bottom: none;
   margin: 100px auto;
   width: 4px;
 }
+/*Specifies rules for the HR tag
+The border shorthand CSS property sets an element's border. It sets the values of border-width, border-style, and border-color.
+https://developer.mozilla.org/en-US/docs/Web/CSS/border
+*/
 
 /* This sections specifies various class that are specified from the index.html file.*/
 .bottom {
@@ -94,11 +138,20 @@ hr {
   left: 250px;
   position: absolute;
 }
+/*The position CSS property sets how an element is positioned in a document. The top, right, bottom, and left properties determine the final location of positioned elements.
+https://developer.mozilla.org/en-US/docs/Web/CSS/position
+*/
+
 .cookie {
   float: right;
   margin-left: 30px;
   width: 25%;
 }
+
+/*The float CSS property places an element on the left or right side of its container, allowing text and inline elements to wrap around it. The element is removed from the normal
+ flow of the page, though still remaining a part of the flow (in contrast to absolute positioning). 
+ https://developer.mozilla.org/en-US/docs/Web/CSS/float*/
+
 .computer {
   float: left;
   margin-right: 30px;
