@@ -1,7 +1,14 @@
+/*CSS Notes*/
+/* CSS items should be listed by Element, Class, and then ID, personal style is alphabetical order, should consider order of importance. 
+Attributes should be listed in alphabetical order.*/
+
+/*This CSS element specifies a margin & text-decoration properties to the Anchor tag.*/
 a {
   margin: 10px 20px;
   text-decoration: none;
 }
+
+/*This CSS element species properties to the body tag.*/
 body {
   color: #40514e;
   background-color: #eaf6f6;
@@ -9,6 +16,8 @@ body {
   font-size: 200%;
   text-align: center;
 }
+
+/*These next H1-H6 elments specify headers and their properties*/
 h1 {
   color: #66bfbf;
   font-family: "Sacramento", serif;
@@ -32,12 +41,16 @@ h3 {
 p {
   line-height: 2;
 }
+
+/*Specifies rules for the HR tag*/
 hr {
   border: dotted #eaf6f6 6px;
   border-bottom: none;
   margin: 100px auto;
   width: 4px;
 }
+
+/* This sections specifies various class that are specified from the index.html file.*/
 .bottom {
   background-color: #66bfbf;
   padding: 50px 0 20px;
@@ -74,6 +87,8 @@ hr {
   padding-top: 100px;
   position: relative;
 }
+
+/* Person preference to split images from other classes*/
 .bottomcloud {
   bottom: 300px;
   left: 250px;
@@ -98,6 +113,7 @@ hr {
   height: 256px;
   width: 256px;
   margin-bottom: 50px;
+  margin-top: 50px;
 }
 .topcloud {
   position: absolute;
