@@ -1,0 +1,13 @@
+h1, h2, h3 {
+    font-family: 'Rock Salt', cursive;
+}
+
+body {
+    font-size: x-large;
+}
+
+/*Social Media Icons*/
+.fa-brands {
+    font-size: xx-large;
+    margin: 15px;
+}
