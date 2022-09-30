@@ -1,13 +1,41 @@
-h1, h2, h3 {
-    font-family: 'Rock Salt', cursive;
+h1,
+h2,
+h3 {
+  font-family: "Rock Salt", cursive;
+}
+.dominos {
+  float: left;
 }
 
-body {
-    font-size: x-large;
-}
+/*Social Media Icons including email*/
 
-/*Social Media Icons*/
+.fa-envelope {
+  color: #0078d4;
+  font-size: 2rem;
+  margin: 0.5rem;
+}
 .fa-brands {
-    font-size: xx-large;
-    margin: 15px;
+  font-size: 2rem;
+  margin: 1rem 1rem;
+}
+.fa-facebook-f {
+  color: #046ee4;
+}
+.fa-facebook-messenger {
+  color: #046ee4;
+}
+.fa-instagram {
+  color: #fe4b6b;
+}
+.fa-linkedin-in {
+  color: #0a66c2;
+}
+.fa-snapchat {
+  color: #e8eb42;
+}
+.fa-tiktok {
+  color: #000;
+}
+.fa-youtube {
+  color: #ff0000;
 }
